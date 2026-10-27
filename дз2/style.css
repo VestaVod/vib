@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1c2333;
+  color: #f5f5f5;
+  padding: 20px;
+}
+
+h1 {
+  color: #ffd54f;
+  margin-top: 0;
+}
+
+p {
+  margin: 6px 0;
+}
+
+.card {
+  background-color: #2a3350;
+  border: 2px solid #ffd54f;
+  border-radius: 8px;
+  padding: 16px;
+  max-width: 420px;
+  margin-bottom: 28px;
+}
+
+#program {
+  background-color: #1c2333;
+  border: 1px dashed #ffd54f;
+  border-radius: 6px;
+  padding: 10px;
+  margin-top: 12px;
+}
+
+button {
+  padding: 8px 14px;
+  background-color: #ffd54f;
+  color: #1c2333;
+  border: 2px solid #ffd54f;
+  border-radius: 6px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.service-form {
+  background-color: #2a3350;
+  border: 2px solid #7986cb;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 20px;
+  max-width: 420px;
+}
+
+.service-form label {
+  display: block;
+  margin: 8px 0;
+}
+
+.error {
+  color: #ff8a80;
+  font-weight: bold;
+}
+
+.result {
+  background-color: #2a3350;
+  border: 1px solid #7986cb;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 16px;
+  max-width: 420px;
+}
+
+.report-json {
+  background-color: #2a3350;
+  border: 1px solid #7986cb;
+  border-radius: 8px;
+  padding: 12px;
+  color: #a5d6a7;
+  white-space: pre-wrap;
+  max-width: 420px;
+}
