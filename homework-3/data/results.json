@@ -1,0 +1,13 @@
+{
+  "quizTitle": "Основы JavaScript",
+  "correctAnswers": [1, 2, 0, 1, 2, 0],
+  "attempts": [
+    { "name": "Анна", "answers": [1, 2, 0, 1, 2, 0] },
+    { "name": "Борис", "answers": [1, 2, 0, 1, 2, 1] },
+    { "name": "Вера", "answers": [1, 2, 0, 1, 0, 1] },
+    { "name": "Глеб", "answers": [1, 2, 0, 0, 0, 1] },
+    { "name": "Даша", "answers": [1, 0, 1, 0, 0, 1] },
+    { "name": "Егор", "answers": [0, 0, 1, 0, 0, 1] },
+    { "name": "Жанна", "answers": [1, 2, 0, 1, 2, 0] }
+  ]
+}
