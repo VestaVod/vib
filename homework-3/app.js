@@ -22,10 +22,8 @@ function selectAttempts(filter) {
   return attempts
 }
 
-function renderAttempts(attempts) {
+function renderAttempts(attempts, countElement, listElement) {
   const attemptsTotal = window.reportData.attempts.length
-  const countElement = document.querySelector('#result-count')
-  const listElement = document.querySelector('#result-list')
 
   let markup = ''
 
@@ -46,13 +44,15 @@ function renderAttempts(attempts) {
 function startFilter() {
   const form = document.querySelector('#filter-form')
   const select = document.querySelector('#filter')
+  const countElement = document.querySelector('#result-count')
+  const listElement = document.querySelector('#result-list')
 
   form.addEventListener('submit', (event) => {
     event.preventDefault()
 
     const filter = select.value
 
-    renderAttempts(selectAttempts(filter))
+    renderAttempts(selectAttempts(filter), countElement, listElement)
   })
 }
 
